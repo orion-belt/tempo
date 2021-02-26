@@ -1,0 +1,474 @@
+Log file created at: 2021/02/26 10:34:04
+Running on machine: mme
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+000000 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  UTIL   common/log.c                    :0752    Initializing OAI logging Done
+000001 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  MME-AP tasks/mme_app/mme_config.c      :0643    Number of TAIs configured: 3
+000002 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  MME-AP tasks/mme_app/mme_config.c      :0789    Number of GUMMEIs configured =1
+000003 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  MME-AP tasks/mme_app/mme_config.c      :0887    Parsing configuration file found S1-MME: 192.168.61.149/24 on eth0
+000004 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  MME-AP tasks/mme_app/mme_config.c      :0909    Parsing configuration file found S11: 192.168.61.149/24 on eth0
+000005 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG MME-AP tasks/mme_app/mme_config.c      :1187    sgw interface IP information 192.168.61.132
+000006 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  SPGW-A tasks/mme_app/mme_config.c      :1195    Parsing configuration file found S-GW S11: 192.168.61.132
+000007 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1210    ==== EURECOM MME v0.1 ====
+000008 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG CONFIG tasks/mme_app/mme_config.c      :1213    Built with EMBEDDED_SGW .................: 0
+000009 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG CONFIG tasks/mme_app/mme_config.c      :1216    Built with S6A_OVER_GRPC .....................: 0
+000010 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG CONFIG tasks/mme_app/mme_config.c      :1221    Built with CMAKE_BUILD_TYPE ................: Debug
+000011 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG CONFIG tasks/mme_app/mme_config.c      :1224    Built with PACKAGE_NAME ....................: MME
+000012 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG CONFIG tasks/mme_app/mme_config.c      :1227    Built with S1AP_DEBUG_LIST .................: 0
+000013 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG CONFIG tasks/mme_app/mme_config.c      :1230    Built with SCTP_DUMP_LIST ..................: 0
+000014 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG CONFIG tasks/mme_app/mme_config.c      :1233    Built with TRACE_HASHTABLE .................: 0
+000015 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG CONFIG tasks/mme_app/mme_config.c      :1236    Built with TRACE_3GPP_SPEC .................: 1
+000016 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1238    Configuration:
+000017 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1241    - File .................................: ./etc/mme.conf
+000018 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1244    - Realm ................................: openairinterface.org
+000019 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1247      full network name ....................: (null)
+000020 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1250      short network name ...................: (null)
+000021 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1253      Daylight Saving Time..................: 0
+000022 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1256    - Run mode .............................: TEST
+000023 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1259    - Max eNBs .............................: 8
+000024 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1262    - Max UEs ..............................: 16
+000025 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1268    - IMS voice over PS session in S1 ......: false
+000026 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1274    - Emergency bearer services in S1 mode .: false
+000027 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1279    - Location services via epc ............: false
+000028 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1284    - Extended service request .............: false
+000029 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1287    - Unauth IMSI support ..................: false
+000030 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1290    - Relative capa ........................: 10
+000031 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1293    - Statistics timer .....................: 10 (seconds)
+
+000032 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1296    - Use Stateless ........................: false
+
+000033 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1297    - CSFB:
+000034 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1301        Non EPS Service Control ........................: OFF
+
+000035 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1302    - S1-MME:
+000036 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1305        port number ......: 36412
+000037 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1306    - IP:
+000038 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1309        s1-MME iface .....: eth0
+000039 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1312        s1-MME ip ........: 192.168.61.149
+000040 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1315        s11 MME iface ....: eth0
+000041 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1317        s11 MME port .....: 2123
+000042 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1320        s11 MME ip .......: 192.168.61.149
+000043 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1338      Address : Unknown address family -2076333888
+000044 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1341    - ITTI:
+000045 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1344        queue size .......: 2000000 (bytes)
+000046 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1347        log file .........: (null)
+000047 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1348    - SCTP:
+000048 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1351        in streams .......: 8
+000049 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1354        out streams ......: 8
+000050 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1355    - GUMMEIs (PLMN|MMEGI|MMEC):
+000051 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1361                208.99 |4|1 
+000052 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1363    - TAIs : (mcc.mnc:tac)
+000053 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1366    - TAI list type one PLMN consecutive TACs
+000054 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1386                208. 99:1
+000055 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1386                208. 99:2
+000056 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1386                208. 99:3
+000057 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1394    - NAS:
+000058 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1403        Preferred Integrity Algorithms .: EIA2 EIA1 EIA0 EIA0 (decreasing priority)
+000059 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1412        Preferred Integrity Algorithms .: EEA0 EEA1 EEA2 EEA0 (decreasing priority)
+000060 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1414        T3402 ....: 1 min
+000061 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1416        T3412 ....: 54 min
+000062 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1418        T3422 ....: 6 sec
+000063 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1420        T3450 ....: 6 sec
+000064 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1422        T3460 ....: 6 sec
+000065 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1424        T3470 ....: 6 sec
+000066 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1426        T3485 ....: 8 sec
+000067 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1428        T3486 ....: 8 sec
+000068 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1430        T3489 ....: 4 sec
+000069 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1432        T3470 ....: 6 sec
+000070 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1434        T3495 ....: 8 sec
+000071 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1435        NAS non standard features .:
+000072 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1438          Force reject TAU ............: true
+000073 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1441          Force reject SR .............: true
+000074 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1444          Disable Esm information .....: false
+000075 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1447          Enable APN Correction .......: false
+000076 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1451          APN CORRECTION MAP LIST (IMSI_PREFIX | APN_OVERRIDE):
+000077 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1458    - S6A:
+000078 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1462        protocol .........: diameter
+000079 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1465        conf file ........: /magma-mme/etc/mme_fd.conf
+000080 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1467    - Service303:
+000081 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1470        service name ........: mme
+000082 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1473        version ........: 1.0
+000083 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1474    - Logging:
+000084 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1477        Output ..............: CONSOLE
+000085 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1480        Output thread safe ..: false
+000086 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1483        Output with color ...: false
+000087 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1486        UDP log level........: INFO
+000088 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1489        GTPV1-U log level....: INVALID_LOG_LEVEL
+000089 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1492        GTPV2-C log level....: INFO
+000090 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1495        SCTP log level.......: ERROR
+000091 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1498        S1AP log level.......: DEBUG
+000092 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1501        ASN1 Verbosity level : 0
+000093 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1504        NAS log level........: INFO
+000094 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1507        MME_APP log level....: DEBUG
+000095 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1510        SPGW_APP log level....: INVALID_LOG_LEVEL
+000096 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1513        S11 log level........: DEBUG
+000097 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1516        S6a log level........: DEBUG
+000098 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1519        UTIL log level.......: INFO
+000099 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  CONFIG tasks/mme_app/mme_config.c      :1522        ITTI log level.......: ERROR (InTer-Task Interface)
+000100 Fri Feb 26 10:34:04 2021 7EFE589A3140 INFO  NAS    tasks/nas/api/mme/mme_api.c     :0104                  Number of GUMMEIs supported = 1
+000101 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG MME-AP tasks/mme_app/mme_app_main.c    :0505      Initializing MME applicative layer: DONE
+000102 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG S11    tasks/s11/s11_tasks.c           :0390    Initializing S11 interface
+000103 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG S11    tasks/s11/s11_tasks.c           :0402    Initializing S11 interface: DONE
+000104 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG S1AP   tasks/s1ap/s1ap_mme.c           :0335    Initializing S1AP interface
+000105 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG S1AP   tasks/s1ap/s1ap_mme.c           :0344    ASN1C version 923
+000106 Fri Feb 26 10:34:04 2021 7EFE4188C700 DEBUG S11    tasks/s11/s11_tasks.c           :0315    Tx UDP_INIT IP addr 192.168.61.149:2123
+000107 Fri Feb 26 10:34:04 2021 7EFE4188C700 DEBUG S11    tasks/s11/s11_tasks.c           :0315    Tx UDP_INIT IP addr 192.168.61.149:0
+000108 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG S1AP   tasks/s1ap/s1ap_mme.c           :0358    Initializing S1AP interface: DONE
+000109 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG S6A    tasks/s6a/s6a_task.c            :0159    Initializing S6a interface
+000110 Fri Feb 26 10:34:04 2021 7EFE589A3140 DEBUG MME-AP oai_mme/oai_mme.c               :0150    MME app initialization complete
+000111 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0099    Initializing freeDiameter log handler done
+000112 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0105    Initializing freeDiameter core...
+000113 Fri Feb 26 10:34:04 2021 7EFE40020700 INFO  SPGW-A tasks/grpc_service/grpc_service.:0064    Starting service at : 127.0.0.1:50073
+ 
+000114 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0117    Initializing freeDiameter core done
+000115 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0120    Default ext path: /usr/local/lib/freeDiameter
+000116 Fri Feb 26 10:34:04 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000117 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0129    fd_core_parseconf done
+000118 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0139    Enabled GNUTLS debug at level 9
+000119 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0153    fd_core_start done
+000120 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0164    fd_core_waitstartcomplete done
+000121 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0172    s6a_fd_init_dict_objs done
+000122 Fri Feb 26 10:34:04 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_fd_iface.cpp      :0178    Initializing S6a interface over free-diameter:DONE
+000123 Fri Feb 26 10:34:05 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_peer.c            :0095    Diameter identity of MME: mme.openairinterface.org with length: 24
+000124 Fri Feb 26 10:34:05 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_peer.c            :0130    S6a peer connection attempt 1 / 8
+000125 Fri Feb 26 10:34:05 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_peer.c            :0141    Peer hss.openairinterface.org is now connected...
+000126 Fri Feb 26 10:34:05 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000127 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000128 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000129 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0028    ======================================= STATISTICS ============================================
+
+000130 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0032                   |   Current Status| Added since last display|  Removed since last display |
+000131 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0040    Connected eNBs |          0      |              0              |             0               |
+000132 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0048    Attached UEs   |          0      |              0              |             0               |
+000133 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0056    Connected UEs  |          0      |              0              |             0               |
+000134 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0064    Default Bearers|          0      |              0              |             0               |
+000135 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0072    S1-U Bearers   |          0      |              0              |             0               |
+
+000136 Fri Feb 26 10:34:14 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0076    ======================================= STATISTICS ============================================
+
+000137 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000138 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000139 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0028    ======================================= STATISTICS ============================================
+
+000140 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0032                   |   Current Status| Added since last display|  Removed since last display |
+000141 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0040    Connected eNBs |          0      |              0              |             0               |
+000142 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0048    Attached UEs   |          0      |              0              |             0               |
+000143 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0056    Connected UEs  |          0      |              0              |             0               |
+000144 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0064    Default Bearers|          0      |              0              |             0               |
+000145 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0072    S1-U Bearers   |          0      |              0              |             0               |
+
+000146 Fri Feb 26 10:34:24 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0076    ======================================= STATISTICS ============================================
+
+000147 Fri Feb 26 10:34:25 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_handlers.c  :2271      Create eNB context for assoc_id: 1832
+000148 Fri Feb 26 10:34:25 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_handlers.c  :0420      New s1 setup request incoming from eNB-Eurecom-VCO3 macro eNB id: 00e01
+000149 Fri Feb 26 10:34:25 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_handlers.c  :0523      Adding eNB with enb_id :3585 to the list of served eNBs 
+000150 Fri Feb 26 10:34:25 2021 7EFE41068700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091      Inside get_state with read_from_db 0
+000151 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000152 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000153 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0028    ======================================= STATISTICS ============================================
+
+000154 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0032                   |   Current Status| Added since last display|  Removed since last display |
+000155 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0040    Connected eNBs |          1      |              1              |             0               |
+000156 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0048    Attached UEs   |          0      |              0              |             0               |
+000157 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0056    Connected UEs  |          0      |              0              |             0               |
+000158 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0064    Default Bearers|          0      |              0              |             0               |
+000159 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0072    S1-U Bearers   |          0      |              0              |             0               |
+
+000160 Fri Feb 26 10:34:34 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0076    ======================================= STATISTICS ============================================
+
+000161 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000162 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000163 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0028    ======================================= STATISTICS ============================================
+
+000164 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0032                   |   Current Status| Added since last display|  Removed since last display |
+000165 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0040    Connected eNBs |          1      |              0              |             0               |
+000166 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0048    Attached UEs   |          0      |              0              |             0               |
+000167 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0056    Connected UEs  |          0      |              0              |             0               |
+000168 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0064    Default Bearers|          0      |              0              |             0               |
+000169 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0072    S1-U Bearers   |          0      |              0              |             0               |
+
+000170 Fri Feb 26 10:34:44 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0076    ======================================= STATISTICS ============================================
+
+000171 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0102      Received S1AP INITIAL_UE_MESSAGE ENB_UE_S1AP_ID 0x06692Dassoc-id:1832 
+000172 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0115      New Initial UE message received with eNB UE S1AP ID: 0x06692Dassoc-id :1832 
+000173 Fri Feb 26 10:34:45 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0199      S1AP_FIND_PROTOCOLIE_BY_ID 96: /magma/lte/gateway/c/oai/tasks/s1ap/s1ap_mme_nas_procedures.c 199: Optional ie is NULL
+000174 Fri Feb 26 10:34:45 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0209      S1AP_FIND_PROTOCOLIE_BY_ID 127: /magma/lte/gateway/c/oai/tasks/s1ap/s1ap_mme_nas_procedures.c 209: Optional ie is NULL
+000175 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_itti_messagi:0175         Sending Initial UE Message to MME_APP, enb_ue_s1ap_id : 0x06692D
+000176 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000177 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_bearer.c  :0561      Received MME_APP_INITIAL_UE_MESSAGE from S1AP
+000178 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0662      MME_APP_INITIAL_UE_MESSAGE from S1AP,without S-TMSI. 
+000179 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0666      UE context doesn't exist -> create one
+000180 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0689   [0]   Allocated new MME UE context and new (mme_ue_s1ap_id = 1)
+000181 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :2092   [0]       Sent MME_APP_S1AP_MME_UE_ID_NOTIFICATION to S1AP for (ue_id = 1)
+000182 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_bearer.c  :0722   [0]   INITIAL_UE_MESSAGE RCVD 
+mme_ue_s1ap_id  = 1
+enb_ue_s1ap_id  = 420141
+000183 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0724      Is S-TMSI Valid - (0)
+000184 Fri Feb 26 10:34:45 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_nas_procedur:1154      Associated sctp_assoc_id 1832, enb_ue_s1ap_id 0x06692D, mme_ue_s1ap_id 0x00000001:HASH_TABLE_OK 
+000185 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_bearer.c  :0729   [0]   Sending NAS Establishment Indication to NAS for ue_id = (1)
+000186 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176               EMMAS-SAP - Received primitive EMMAS_ESTABLISH_REQ (205)
+000187 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0741                  EMMAS-SAP - Received AS connection establish request
+000188 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0801                  EMMAS-SAP - Message Type = ATTACH_REQUEST(0x41) for (ue_id = 1)
+000189 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_recv.c    :0138                     EMMAS-SAP - Received Attach Request message
+000190 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Attach.c          :0222                        ATTACH REQ (ue_id = 0x00000001) (GUTI = 208.99 |0004|01|52c65f85) 
+000191 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Attach.c          :0234                        EMM-PROC:  ATTACH - EPS attach type = IMSI (1)
+000192 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                        Inside get_state with read_from_db 0
+000193 Fri Feb 26 10:34:45 2021 7EFE430E8700 WARNI MME-AP tasks/mme_app/mme_app_context.c :0473                         No GUTI hashtable for GUTI 
+000194 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS-EM tasks/nas/emm/Attach.c          :0574                        EMM-PROC  - Create EMM context ue_id = 0x00000001
+000195 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1097                           Hit 3GPP TS 24_301R10_5_5_1_2_3__1 : EMM common procedure initiation during attach procedure
+000196 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Identification.c  :0113                              Hit 3GPP TS 24_301R10_5_4_4_1 : Identification procedure
+000197 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Identification.c  :0121                              EMM-PROC  - Initiate identification type = IMSI (1), ctx = 0x62200002c260
+000198 Fri Feb 26 10:34:45 2021 7EFE430E8700 WARNI NAS-EM tasks/nas/emm/LowerLayer.c      :0472                                    NO Valid Security Context Available
+000199 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176                                       EMMAS-SAP - Received primitive EMMAS_SECURITY_REQ (201)
+000200 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :1639                                             EMMAS-SAP - Send AS security request
+000201 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_send.c    :1295                                                EMMAS-SAP - Send Identity Request message for ue_id = (1)
+000202 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                                             Inside get_state with read_from_db 0
+000203 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_transport.:0114                                             MME_APP:DOWNLINK NAS TRANSPORT. Establishing S1 sig connection. mme_ue_s1ap_id = 0x00000001	 enb_ue_s1ap_id = 0x06692D 
+000204 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_context.c :1517   [0]                                             MME_APP: UE Connection State changed to CONNECTED.enb_ue_s1ap_id =0x06692D, mme_ue_s1ap_id = 0x00000001
+000205 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                                                Inside get_state with read_from_db 0
+000206 Fri Feb 26 10:34:45 2021 7EFE41068700 NOTIC S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0582   [0]      Send S1AP DOWNLINK_NAS_TRANSPORT message ue_id = 0x00000001 MME_UE_S1AP_ID = 0x00000001 eNB_UE_S1AP_ID = 0x06692D
+000207 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_context.c :1559   [0]                                             UE STATE - CONNECTED.
+000208 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Identification.c  :0416                                 Hit 3GPP TS 24_301R10_5_4_4_2 : Identification initiation by the network
+000209 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0241                                       EMM-FSM   - Received event COMMON_PROC_REQ (1) in state EMM-DEREGISTERED
+000210 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0156                                             UE 0x00000001 EMM-FSM   - Status changed: EMM-DEREGISTERED ===> EMM-COMMON-PROCEDURE-INITIATED
+000211 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0303         Received S1AP UPLINK_NAS_TRANSPORT message MME_UE_S1AP_ID 0x00000001
+000212 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_itti_messagi:0080   [0]      Sending NAS Uplink indication to NAS_MME_APP, mme_ue_s1ap_id = (1) 
+000213 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000214 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS    tasks/nas/nas_proc.c            :0309      Received NAS UPLINK DATA IND from S1AP for ue_id = (1)
+000215 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176            EMMAS-SAP - Received primitive EMMAS_DATA_IND (214)
+000216 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0621               EMMAS-SAP - Received AS data transfer indication (ue_id=0x00000001, delivered=true, length=17)
+000217 Fri Feb 26 10:34:45 2021 7EFE430E8700 CRITI NAS    tasks/nas/api/network/nas_messag:0286                  MAC Failure MSG:CA37FEAB(3392667307) <> INT ALGO:00000000(0) Type of security context 0
+000218 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/sap/emm_as.c      :0386                  Hit 3GPP TS 24_301R10_4_4_4_3__1 : Integrity checking of NAS signalling messages exception in the MME
+000219 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/sap/emm_as.c      :0389                  Hit 3GPP TS 24_301R10_4_4_4_3__2 : Process NAS signalling message in the MME, even if it fails the integrity check or MAC cannot be verified
+000220 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_recv.c    :0774                     EMMAS-SAP - Received Identity Response message
+000221 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Identification.c  :0204                        EMM-PROC  - Identification complete (ue_id=0x00000001)
+000222 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Identification.c  :0214                        Hit 3GPP TS 24_301R10_5_4_4_4 : Identification completion by the network
+000223 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                        Inside get_state with read_from_db 0
+000224 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_context.c :0550   [208990100001121]                           Did not update enb_s1ap_id_key 60146739501 in ue context 0x62200002b900 enb_ue_s1ap_ue_id 0x06692D mme_ue_s1ap_id 0x00000001
+000225 Fri Feb 26 10:34:45 2021 7EFE430E8700 ERROR MME-AP tasks/mme_app/mme_app_context.c :0625   [208990100001121]                           Error could not update this ue context 0x62200002b900 enb_ue_s1ap_ue_id 0x06692D mme_ue_s1ap_id 0x00000001 mme_teid_s11 0x0 : HASH_TABLE_KEY_NOT_EXISTS
+000226 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                        Inside get_state with read_from_db 0
+000227 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0241                                 EMM-FSM   - Received event COMMON_PROC_CNF (2) in state EMM-COMMON-PROCEDURE-INITIATED
+000228 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0156                                       UE 0x00000001 EMM-FSM   - Status changed: EMM-COMMON-PROCEDURE-INITIATED ===> EMM-DEREGISTERED
+000229 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Attach.c          :1155                                       ATTACH - Identification procedure success!
+000230 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1160                                       Hit 3GPP TS 24_301R10_5_5_1_2_3__1 : EMM common procedure initiation during attach procedure
+000231 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Authentication.c  :1464                                                   Sending Authentication Information Request message to S6A for ue_id =0x00000001
+000232 Fri Feb 26 10:34:45 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_auth_info.c       :0394    s6a_generate_authentication_info_req plmn: 02F899
+000233 Fri Feb 26 10:34:45 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_auth_info.c       :0397    s6a_generate_authentication_info_req visited_plmn: 02F899
+000234 Fri Feb 26 10:34:45 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_task.c            :0087    Sending s6a AIR for imsi=208990100001121
+000235 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_auth_info.c       :0219    Received S6A Authentication Information Answer (AIA)
+000236 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_auth_info.c       :0250    Received S6A Result code 2001:DIAMETER_SUCCESS
+000237 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000238 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/nas_proc.c            :0367      Received Authentication Information Answer from S6A for ue_id =0x00000001
+000239 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_cn.c      :1138               EMMCN-SAP - Received primitive EMM_CN_AUTHENTICATION_PARAM_RES (401)
+000240 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0241                              EMM-FSM   - Received event COMMON_PROC_ABORT (4) in state EMM-DEREGISTERED
+000241 Fri Feb 26 10:34:45 2021 7EFE430E8700 ERROR NAS-EM tasks/nas/emm/sap/EmmDeregistere:0123                                 EMM-FSM state EMM_DEREGISTERED - Primitive _EMMREG_COMMON_PROC_ABORT is not valid
+000242 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Authentication.c  :0167                        ue_id=0x00000001 EMM-PROC  - Initiate Authentication KSI = 0
+000243 Fri Feb 26 10:34:45 2021 7EFE430E8700 WARNI NAS-EM tasks/nas/emm/LowerLayer.c      :0472                              NO Valid Security Context Available
+000244 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Authentication.c  :1233                           Hit 3GPP TS 24_301R10_5_4_2_2 : Authentication initiation by the network
+000245 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176                                 EMMAS-SAP - Received primitive EMMAS_SECURITY_REQ (201)
+000246 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :1639                                       EMMAS-SAP - Send AS security request
+000247 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_send.c    :1346                                          EMMAS-SAP - Send Authentication Request message for ue_id = (1)
+000248 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                                       Inside get_state with read_from_db 0
+000249 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0241                                 EMM-FSM   - Received event COMMON_PROC_REQ (1) in state EMM-DEREGISTERED
+000250 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0156                                       UE 0x00000001 EMM-FSM   - Status changed: EMM-DEREGISTERED ===> EMM-COMMON-PROCEDURE-INITIATED
+000251 Fri Feb 26 10:34:45 2021 7EFE41068700 NOTIC S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0582   [208990100001121]      Send S1AP DOWNLINK_NAS_TRANSPORT message ue_id = 0x00000001 MME_UE_S1AP_ID = 0x00000001 eNB_UE_S1AP_ID = 0x06692D
+000252 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0303         Received S1AP UPLINK_NAS_TRANSPORT message MME_UE_S1AP_ID 0x00000001
+000253 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_itti_messagi:0080   [208990100001121]      Sending NAS Uplink indication to NAS_MME_APP, mme_ue_s1ap_id = (1) 
+000254 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000255 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS    tasks/nas/nas_proc.c            :0309      Received NAS UPLINK DATA IND from S1AP for ue_id = (1)
+000256 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176            EMMAS-SAP - Received primitive EMMAS_DATA_IND (214)
+000257 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0621               EMMAS-SAP - Received AS data transfer indication (ue_id=0x00000001, delivered=true, length=17)
+000258 Fri Feb 26 10:34:45 2021 7EFE430E8700 CRITI NAS    tasks/nas/api/network/nas_messag:0286                  MAC Failure MSG:602A6565(1613391205) <> INT ALGO:00000000(0) Type of security context 0
+000259 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/sap/emm_as.c      :0397                  Hit 3GPP TS 24_301R10_4_4_4_3__1 : Integrity checking of NAS signalling messages exception in the MME
+000260 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/sap/emm_as.c      :0400                  Hit 3GPP TS 24_301R10_4_4_4_3__2 : Process NAS signalling message in the MME, even if it fails the integrity check or MAC cannot be verified
+000261 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_recv.c    :0894                     EMMAS-SAP - Received Authentication Response message
+000262 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Authentication.c  :0868                        EMM-PROC  - Authentication complete (ue_id=0x00000001)
+000263 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Authentication.c  :0885                        EMM-PROC  - Authentication complete (ue_id=0x00000001)
+000264 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Authentication.c  :0892                        Hit 3GPP TS 24_301R10_5_4_2_4__1 : AUTHENTICATION RESPONSE received, stop T3460, check RES
+000265 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Authentication.c  :0895                        Hit 3GPP TS 24_301R10_5_4_2_4__2 : authentication procedure is success, new eKSI for new authentication procedure
+000266 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0241                                 EMM-FSM   - Received event COMMON_PROC_CNF (2) in state EMM-COMMON-PROCEDURE-INITIATED
+000267 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0156                                       UE 0x00000001 EMM-FSM   - Status changed: EMM-COMMON-PROCEDURE-INITIATED ===> EMM-DEREGISTERED
+000268 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Attach.c          :1200                                       ATTACH - Authentication procedure success!
+000269 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1205                                       Hit 3GPP TS 24_301R10_5_5_1_2_3__1 : EMM common procedure initiation during attach procedure
+000270 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1242                                          Hit 3GPP TS 24_301R10_5_5_1_2_3__1 : EMM common procedure initiation during attach procedure
+000271 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/SecurityModeContro:0180                                             EMM-PROC  - Initiate security mode control procedure, KSI = 0
+000272 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/SecurityModeContro:0223                                             Hit 3GPP TS 24_301R10_5_4_3_2__2 : SMC initiation, reset DL NAS count, use SC
+000273 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/SecurityModeContro:0708                                                Hit 3GPP TS 24_301R10_5_4_3_2__14 : SMC initiation, include replayed security capabilities, eKSI, algos
+000274 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176                                                      EMMAS-SAP - Received primitive EMMAS_SECURITY_REQ (201)
+000275 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :1639                                                            EMMAS-SAP - Send AS security request
+000276 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_send.c    :1460                                                               EMMAS-SAP - Send Security Mode Command message for ue_id = (1)
+000277 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                                                            Inside get_state with read_from_db 0
+000278 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/SecurityModeContro:0752                                                Hit 3GPP TS 24_301R10_5_4_3_2__1 : SMC initiation, start T3460
+000279 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0241                                                      EMM-FSM   - Received event COMMON_PROC_REQ (1) in state EMM-DEREGISTERED
+000280 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0156                                                            UE 0x00000001 EMM-FSM   - Status changed: EMM-DEREGISTERED ===> EMM-COMMON-PROCEDURE-INITIATED
+000281 Fri Feb 26 10:34:45 2021 7EFE41068700 NOTIC S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0582   [208990100001121]      Send S1AP DOWNLINK_NAS_TRANSPORT message ue_id = 0x00000001 MME_UE_S1AP_ID = 0x00000001 eNB_UE_S1AP_ID = 0x06692D
+000282 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0303         Received S1AP UPLINK_NAS_TRANSPORT message MME_UE_S1AP_ID 0x00000001
+000283 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_itti_messagi:0080   [208990100001121]      Sending NAS Uplink indication to NAS_MME_APP, mme_ue_s1ap_id = (1) 
+000284 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000285 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS    tasks/nas/nas_proc.c            :0309      Received NAS UPLINK DATA IND from S1AP for ue_id = (1)
+000286 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176            EMMAS-SAP - Received primitive EMMAS_DATA_IND (214)
+000287 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0621               EMMAS-SAP - Received AS data transfer indication (ue_id=0x00000001, delivered=true, length=19)
+000288 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/msg/emm_msg.c     :0187                           EMM-MSG   - IMEISV: 8642840400140400
+000289 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/sap/emm_as.c      :0418                  Hit 3GPP TS 24_301R10_4_4_4_3__1 : Integrity checking of NAS signalling messages exception in the MME
+000290 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_recv.c    :1007                     EMMAS-SAP - Received Security Mode Complete message
+000291 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/SecurityModeContro:0411                        EMM-PROC  - Security mode complete (ue_id=0x00000001)
+000292 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/SecurityModeContro:0428                        Hit 3GPP TS 24_301R10_5_4_3_4__1 : SMC completion, stop T3460, 
+000293 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/SecurityModeContro:0472                        Hit 3GPP TS 24_301R10_5_4_3_4__2 : SMC completion, integ. cipher. all messages
+000294 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0241                                 EMM-FSM   - Received event COMMON_PROC_CNF (2) in state EMM-COMMON-PROCEDURE-INITIATED
+000295 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0156                                       UE 0x00000001 EMM-FSM   - Status changed: EMM-COMMON-PROCEDURE-INITIATED ===> EMM-DEREGISTERED
+000296 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Attach.c          :1285                                       ATTACH - Security procedure success!
+000297 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Attach.c          :1469                                          ue_id=0x00000001 EMM-PROC  - Attach UE 
+000298 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/sap/esm_sap.c     :0142                                             ESM-SAP   - Received primitive ESM_UNITDATA_IND (20)
+000299 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/sap/esm_recv.c    :0154                                                   ESM-SAP   - Received PDN Connectivity Request message (ue_id= 0x00000001, pti=37, ebi=0)
+000300 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_location.c:0143                                                      0 S6A_UPDATE_LOCATION_REQ imsi 208990100001121 with length 15 for (ue_id = 1)
+000301 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_location.c:0170                                                      Started location update response timer for UE id  1 
+000302 Fri Feb 26 10:34:45 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_up_loc.c          :0308    Sending s6a ulr for imsi=208990100001121
+000303 Fri Feb 26 10:34:45 2021 7EFE40844700 DEBUG S6A    tasks/s6a/s6a_task.c            :0074    Sending s6a ULR for imsi=208990100001121
+000304 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_up_loc.c          :0079    Received s6a ula for imsi=208990100001121
+000305 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000306 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000307 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000308 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000309 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000310 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000311 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000312 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000313 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000314 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_subscription_data.:0499    AVP code 1446 Regional-Subscription-Zone=Code not processed
+000315 Fri Feb 26 10:34:45 2021 7EFE3B6A3700 DEBUG S6A    tasks/s6a/s6a_up_loc.c          :0178    Sending S6A_UPDATE_LOCATION_ANS to task MME_APP
+000316 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000317 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_main.c    :0219    Received S6A Update Location Answer from S6A
+000318 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_location.c:0228      Handling imsi 208990100001121
+000319 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_location.c:0311      Received UL rate 50000000 and DL rate 100000000
+000320 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/nas_proc.c            :0466         Received S6a-Update Location Answer Success for ue_id = 0x00000001
+000321 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_cn.c      :1138               EMMCN-SAP - Received primitive EMM_CN_ULA_SUCCESS (403)
+000322 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_apn_select:0144               Selected APN <oai.ipv4>, PDN Type <0> for UE 208990100001121
+000323 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/PdnConnectivity.c :0136                  ESM-PROC  - PDN connectivity requested by the UE (ue_id=0x00000001)
+000324 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/DefaultEpsBearerCo:0109                  ESM-PROC  - Default EPS bearer context activation (ue_id=0x00000001)
+000325 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/esm_ebr_context.c :0097                     ESM-PROC  - Create new default EPS bearer context (ebi=5) for PDN connection (pid=0) for ue_id (1)
+000326 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091               Inside get_state with read_from_db 0
+000327 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_context.c :0550   [208990100001121]                  Did not update enb_s1ap_id_key 60146739501 in ue context 0x62200002b900 enb_ue_s1ap_ue_id 0x06692D mme_ue_s1ap_id 0x00000001
+000328 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_itti_messa:0305   [208990100001121]               selected apn config PDN Type = 0 for (ue_id = 1)
+000329 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_sgw_select:0050                  SGW  returned 192.168.61.132
+000330 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_itti_messa:0381   [208990100001121]               Sending S11 CREATE SESSION REQ message to SPGW for ue_id 0x00000001
+000331 Fri Feb 26 10:34:45 2021 7EFE4188C700 WARNI GTPv2- lib/gtpv2-c/nwgtpv2c-0.11/src/Nw:0733            Request message received on non-existent teid 0x1000000 received! Creating new tunnel.
+000332 Fri Feb 26 10:34:45 2021 7EFE4188C700 WARNI GTPv2- lib/gtpv2-c/nwgtpv2c-0.11/src/Nw:1287      Unexpected IE 72 with instance 0 of length 8 received in msg 33!
+000333 Fri Feb 26 10:34:45 2021 7EFE4188C700 DEBUG S11    lib/gtpv2-c/gtpv2c_ie_formatter/:0246         	- PAA type  1
+000334 Fri Feb 26 10:34:45 2021 7EFE4188C700 DEBUG S11    lib/gtpv2-c/gtpv2c_ie_formatter/:0279         	- IPv4 addr 12.1.1.3
+000335 Fri Feb 26 10:34:45 2021 7EFE4188C700 DEBUG S11    lib/gtpv2-c/gtpv2c_ie_formatter/:0388         	- AMBR UL 50000000
+000336 Fri Feb 26 10:34:45 2021 7EFE4188C700 DEBUG S11    lib/gtpv2-c/gtpv2c_ie_formatter/:0389         	- AMBR DL 100000000
+000337 Fri Feb 26 10:34:45 2021 7EFE4188C700 DEBUG S11    lib/gtpv2-c/gtpv2c_ie_formatter/:0345         	- EBI 5
+000338 Fri Feb 26 10:34:45 2021 7EFE4188C700 WARNI GTPv2- lib/gtpv2-c/nwgtpv2c-0.11/src/Nw:1568      Removing the initial request transaction for message type 33, seqNo a480 in conclusion (not late response). 
+000339 Fri Feb 26 10:34:45 2021 7EFE4188C700 INFO  GTPv2- lib/gtpv2-c/nwgtpv2c-0.11/src/Nw:2448         Stopped active timer 0x60200001ccb0 for info 0x0x60b000020c20!
+000340 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000341 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_bearer.c  :1010      Received S11_CREATE_SESSION_RESPONSE from S+P-GW
+000342 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :1031   [208990100001121]   MME S11 teid = 1, cause = 16, ue_id = 1
+000343 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091      Inside get_state with read_from_db 0
+000344 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :1133   [208990100001121]   S1U S-GW teid   = (3)
+S5/S8U PGW teid = (0)
+000345 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :1171   [208990100001121]   Set qci 9 in bearer 5 (qos not modified by P-GW)
+000346 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/nas_proc.c            :0484         Handle Create Session Response Success at NAS for ue_id = 0x00000001
+000347 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_cn.c      :1138               EMMCN-SAP - Received primitive EMM_CN_CS_RESPONSE_SUCCESS (404)
+000348 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/sap/esm_send.c    :0228                     ESM-SAP   - Send Activate Default EPS Bearer Context Request message
+000349 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/sap/esm_send.c    :0333                     ESM-SAP   - Send Activate Default EPS Bearer Context Request message (pti=37, ebi=5)
+000350 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/DefaultEpsBearerCo:0210                     ESM-PROC  - Initiate non standalone default EPS bearer context activation (ue_id=0x00000001, ebi=5)
+000351 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/esm_ebr.c         :0519                        ESM-FSM   - Status of EPS bearer context 5 changed: BEARER CONTEXT INACTIVE ===> BEARER CONTEXT ACTIVE PENDING
+000352 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1659                     #NOT IMPLEMENTED 3GPP TS 24_301R10_5_5_1_2_4__3 : Attach accepted by the network, delete the stored UE radio capability information.
+000353 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1662                     Hit 3GPP TS 24_301R10_5_5_1_2_4__4 : Attach accepted by the network, store UE network capability IE or the MS network capability IE or both.
+000354 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1669                     Hit 3GPP TS 24_301R10_5_5_1_2_4__5 : Attach accepted by the network, use DRX parameter for the downlink transfer of signalling and user data
+000355 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1674                     Hit 3GPP TS 24_301R10_5_5_1_2_4__9 : 
+000356 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                        Inside get_state with read_from_db 0
+000357 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                        Inside get_state with read_from_db 0
+000358 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_context.c :0550   [208990100001121]                           Did not update enb_s1ap_id_key 60146739501 in ue context 0x62200002b900 enb_ue_s1ap_ue_id 0x06692D mme_ue_s1ap_id 0x00000001
+000359 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS    tasks/nas/api/mme/mme_api.c     :0578                        UE 0x00000001  Got GUTI 208.99 |0004|01|4ff330c7
+000360 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1694                     Hit 3GPP TS 24_301R10_5_5_1_2_4__6 : 
+000361 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1695                     Hit 3GPP TS 24_301R10_5_5_1_2_4__10 : 
+000362 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1746                     Hit 3GPP TS 24_301R10_5_5_1_2_4__14 : 
+000363 Fri Feb 26 10:34:45 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :1802                     Hit 3GPP TS 24_301R10_5_5_1_2_4__2 : 
+000364 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176                           EMMAS-SAP - Received primitive EMMAS_ESTABLISH_CNF (206)
+000365 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :2021                                 EMMAS-SAP - Send AS connection establish confirmation for (ue_id = 1)
+000366 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_send.c    :0223                                    EMMAS-SAP - Send Attach Accept message, ue_id = (1)
+000367 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0282                                 Handle MME_APP_CONNECTION_ESTABLISHMENT_CNF for ue-id 0x00000001
+000368 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0396   [208990100001121]                              CSFB Fallback indicator = (0)
+000369 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0400   [208990100001121]                              UE radio context already cached: no
+000370 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0480   [208990100001121]                              security_capabilities_encryption_algorithms 0x00E0
+000371 Fri Feb 26 10:34:45 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_bearer.c  :0484   [208990100001121]                              security_capabilities_integrity_algorithms  0x00E0
+000372 Fri Feb 26 10:34:45 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_bearer.c  :0544   [208990100001121]                              MME APP : Sent Initial context Setup Request and Started guard timer for UE id  1 timer_id :6020000486f0 
+000373 Fri Feb 26 10:34:45 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0858         Received Connection Establishment Confirm from MME_APP for ue_id = 1
+000374 Fri Feb 26 10:34:45 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_nas_procedur:1000         security_capabilities_encryption_algorithms 0x00E0
+000375 Fri Feb 26 10:34:45 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_nas_procedur:1012         security_capabilities_integrity_algorithms 0x00E0
+000376 Fri Feb 26 10:34:45 2021 7EFE41068700 NOTIC S1AP   tasks/s1ap/s1ap_mme_nas_procedur:1113   [208990100001121]      Send S1AP_INITIAL_CONTEXT_SETUP_REQUEST message MME_UE_S1AP_ID = 0x00000001 eNB_UE_S1AP_ID = 0x06692D
+000377 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000378 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_capabiliti:0068      UE radio capabilities of length 236 found and cached
+000379 Fri Feb 26 10:34:46 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_handlers.c  :0932         S1AP_FIND_PROTOCOLIE_BY_ID 29: /magma/lte/gateway/c/oai/tasks/s1ap/s1ap_mme_handlers.c 932: Optional ie is NULL
+000381 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000380 Fri Feb 26 10:34:46 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0303         Received S1AP UPLINK_NAS_TRANSPORT message MME_UE_S1AP_ID 0x00000001
+000382 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_bearer.c  :1539      Received MME_APP_INITIAL_CONTEXT_SETUP_RSP from S1AP for ue_id = (1)
+000383 Fri Feb 26 10:34:46 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_itti_messagi:0080   [208990100001121]      Sending NAS Uplink indication to NAS_MME_APP, mme_ue_s1ap_id = (1) 
+000384 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_bearer.c  :1469   [208990100001121]         Sending S11 MODIFY BEARER REQ to SPGW for ue_id = (1), teid = (2)
+000385 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000386 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS    tasks/nas/nas_proc.c            :0309      Received NAS UPLINK DATA IND from S1AP for ue_id = (1)
+000387 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176            EMMAS-SAP - Received primitive EMMAS_DATA_IND (214)
+000388 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0621               EMMAS-SAP - Received AS data transfer indication (ue_id=0x00000001, delivered=true, length=13)
+000389 Fri Feb 26 10:34:46 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/sap/emm_as.c      :0444                  Hit 3GPP TS 24_301R10_4_4_4_3__1 : Integrity checking of NAS signalling messages exception in the MME
+000390 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_recv.c    :0387                     EMMAS-SAP - Received Attach Complete message for ue_id = (1)
+000391 Fri Feb 26 10:34:46 2021 7EFE430E8700 NOTIC NAS    tasks/nas/emm/Attach.c          :0699                        Hit 3GPP TS 24_301R10_5_5_1_2_4__20 : Attach accepted by the network, ATTACH COMPLETE received, enter state EMM-REGISTERED
+000392 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/sap/esm_sap.c     :0142                           ESM-SAP   - Received primitive ESM_DEFAULT_EPS_BEARER_CONTEXT_ACTIVATE_CNF (2)
+000393 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/sap/esm_recv.c    :0723                                 ESM-SAP   - Received Activate Default EPS Bearer Context Accept message (ue_id=1, pti=0, ebi=5)
+000394 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/DefaultEpsBearerCo:0266                                    ESM-PROC  - Default EPS bearer context activation accepted by the UE (ue_id=0x00000001, ebi=5)
+000395 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-ES tasks/nas/esm/esm_ebr.c         :0519                                       ESM-FSM   - Status of EPS bearer context 5 changed: BEARER CONTEXT ACTIVE PENDING ===> BEARER CONTEXT ACTIVE
+000396 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0241                                 EMM-FSM   - Received event ATTACH_CNF (5) in state EMM-DEREGISTERED
+000397 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_fsm.c     :0156                                       UE 0x00000001 EMM-FSM   - Status changed: EMM-DEREGISTERED ===> EMM-REGISTERED
+000398 Fri Feb 26 10:34:46 2021 7EFE4188C700 DEBUG S11    lib/gtpv2-c/gtpv2c_ie_formatter/:0345         	- EBI 5
+000399 Fri Feb 26 10:34:46 2021 7EFE4188C700 WARNI GTPv2- lib/gtpv2-c/nwgtpv2c-0.11/src/Nw:1568      Removing the initial request transaction for message type 35, seqNo a481 in conclusion (not late response). 
+000400 Fri Feb 26 10:34:46 2021 7EFE4188C700 INFO  GTPv2- lib/gtpv2-c/nwgtpv2c-0.11/src/Nw:2448         Stopped active timer 0x60200001c8d0 for info 0x0x60b000020c20!
+000401 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_context.c :0114   [208990100001121]                                       Reported UE location to directoryd
+000402 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                                          Inside get_state with read_from_db 0
+000403 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_context.c :2039   [208990100001121]                                       UE STATE - REGISTERED.
+000404 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/Attach.c          :0800                         Sending EMM INFORMATION for ue_id = (1)
+000405 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :0176                                 EMMAS-SAP - Received primitive EMMAS_DATA_REQ (213)
+000406 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  NAS-EM tasks/nas/emm/sap/emm_as.c      :1339                                       EMMAS-SAP - Send AS data transfer request
+000407 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091                                       Inside get_state with read_from_db 0
+000408 Fri Feb 26 10:34:46 2021 7EFE41068700 NOTIC S1AP   tasks/s1ap/s1ap_mme_nas_procedur:0582   [208990100001121]      Send S1AP DOWNLINK_NAS_TRANSPORT message ue_id = 0x00000001 MME_UE_S1AP_ID = 0x00000001 eNB_UE_S1AP_ID = 0x06692D
+000409 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000410 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_main.c    :0126    Received S11 MODIFY BEARER RESPONSE from SPGW
+000411 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_main.c    :0139    S11 MODIFY BEARER RESPONSE local S11 teid = 0x1
+000412 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000413 Fri Feb 26 10:34:46 2021 7EFE41068700 ERROR S1AP   tasks/s1ap/s1ap_mme_handlers.c  :1447          UE Context Release commplete: S1 context should have been cleared for ueid 0x00000001
+000414 Fri Feb 26 10:34:46 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_handlers.c  :2200         SCTP disconnection request for association id 1832, Reset Flag = 0. Connected UEs = 1 
+000415 Fri Feb 26 10:34:46 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_handlers.c  :2101         eNB Deregesteration
+000416 Fri Feb 26 10:34:46 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme_handlers.c  :2136         Reached maximum UE count for this ITTI message. Sending deregistered indication to MME App for UE count = 1
+000417 Fri Feb 26 10:34:46 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme_handlers.c  :2247         Marked enb s1 status to Shutdown, attached to assoc_id: 1832
+000418 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000419 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091      Inside get_state with read_from_db 0
+000420 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_context.c :1460   [208990100001121]      MME_APP: UE Connection State changed to IDLE. mme_ue_s1ap_id = 0x00000001
+000421 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_context.c :1491   [208990100001121]      Started Mobile Reachability timer for UE id 0x00000001
+000422 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091         Inside get_state with read_from_db 0
+000423 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_context.c :1505   [208990100001121]      UE STATE - IDLE.
+000424 Fri Feb 26 10:34:46 2021 7EFE430E8700 WARNI MME-AP tasks/mme_app/mme_app_context.c :2132   [208990100001121]   SCTP RESET/SHUTDOWN. UE state: CONNECTED. mme_ue_s1ap_id = 1, enb_ue_s1ap_id = 420141 Action -- Handle the message
+ 
+000425 Fri Feb 26 10:34:46 2021 7EFE4188C700 WARNI GTPv2- lib/gtpv2-c/nwgtpv2c-0.11/src/Nw:1568      Removing the initial request transaction for message type 171, seqNo a482 in conclusion (not late response). 
+000427 Fri Feb 26 10:34:46 2021 7EFE4188C700 INFO  GTPv2- lib/gtpv2-c/nwgtpv2c-0.11/src/Nw:2448         Stopped active timer 0x60200001c770 for info 0x0x60b000020c20!
+000426 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000428 Fri Feb 26 10:34:46 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091      Inside get_state with read_from_db 0
+000429 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_itti_messa:0089   [208990100001121]      Sending UE Context Release Cmd to S1ap for (ue_id = 1)
+UE Context Release Cause = (7)
+000430 Fri Feb 26 10:34:46 2021 7EFE430E8700 INFO  MME-AP tasks/mme_app/mme_app_context.c :1565   [208990100001121]      Old UE ECM State (IDLE) is same as the new UE ECM state (IDLE)
+000431 Fri Feb 26 10:34:46 2021 7EFE41068700 INFO  S1AP   tasks/s1ap/s1ap_mme.c           :0609         Deleting eNB 
+000432 Fri Feb 26 10:34:46 2021 7EFE41068700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091         Inside get_state with read_from_db 0
+000433 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000434 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000435 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0028    ======================================= STATISTICS ============================================
+
+000436 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0032                   |   Current Status| Added since last display|  Removed since last display |
+000437 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0040    Connected eNBs |          0      |              0              |             1               |
+000438 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0048    Attached UEs   |          1      |              1              |             0               |
+000439 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0056    Connected UEs  |          0      |              1              |             1               |
+000440 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0064    Default Bearers|          1      |              1              |             0               |
+000441 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0072    S1-U Bearers   |          0      |              1              |             1               |
+
+000442 Fri Feb 26 10:34:54 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_statistics:0076    ======================================= STATISTICS ============================================
+
+000443 Fri Feb 26 10:34:55 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme.c           :0364      Cleaning S1AP
+000444 Fri Feb 26 10:34:55 2021 7EFE430E8700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0091    Inside get_state with read_from_db 0
+000445 Fri Feb 26 10:34:55 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_state_manager.cp:0098      No keys in the enb hashtable
+000446 Fri Feb 26 10:34:55 2021 7EFE41068700 DEBUG S1AP   tasks/s1ap/s1ap_mme.c           :0373      Cleaning S1AP: DONE
